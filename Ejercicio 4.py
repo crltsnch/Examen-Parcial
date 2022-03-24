@@ -11,3 +11,6 @@ def RetirarDinero(self):
     if self.saldo > 0:
         self.saldo = self.saldo - 
 
+def IngresarDinero(self):
+    self.saldo = self.saldo + 
+    
