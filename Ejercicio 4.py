@@ -10,10 +10,12 @@ class CuentaBancaria():
 def RetirarDinero(self, reintegro):
     if self.saldo > reintegro:
         self.saldo = self.saldo - reintegro
+        print("Su nuevo saldo es " + self.saldo)
 
     else:
         print("No hay saldo suficiente")
 
 def IngresarDinero(self, ingreso):
     self.saldo = self.saldo + ingreso
-
+    print("Su nuevo saldo es " + self.saldo)
+    
