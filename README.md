@@ -2,7 +2,7 @@
 El enlace a mi repositorio es: https://github.com/crltsnch/Examen-Parcial.git
 
 Ejercicio 1:
-````
+```
 class libro():
     def __init__(self, autor, titulo, genero):
         self.autor = autor
@@ -16,6 +16,7 @@ class libro():
 
 
 print(libro.libro1("titulo, autor, genero"))
+
 ```
 
 Ejercicio 2:
@@ -77,4 +78,4 @@ class CuentaBancaria():
             print("Su nuevo saldo es " + self.saldo)
         else:
             print("No hay saldo suficiente")
-    ```
+```
