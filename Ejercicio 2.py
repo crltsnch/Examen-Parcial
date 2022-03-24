@@ -15,4 +15,8 @@ class Animal():
         print("Nombre: " + self.getNombre())
         print("Eespecie: " + self.getEspecie())
         print("Nacimiento: " + self.getNacimiento())
-        
+
+nombre = input("Dime el tipo de animal: ")
+especie = input("Dime el tipo de especie: ")
+nacimiento = input("Tipo de animal según su nacimiento: ")
+
