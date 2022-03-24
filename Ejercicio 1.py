@@ -1,7 +1,7 @@
 #Escriba una clase que permita describir un libro y situar los valores asociados. Dar un ejemplo de uso en Python.
 
 class libro():
-    def __init__(self, autor, título, genero):
+    def __init__(self, autor, titulo, genero):
         self.autor = autor
         self.titulo = titulo
         self.genero = genero
@@ -11,4 +11,5 @@ class libro():
         autor = input("Escriba su autor: ")
         genero = input("Escriba su genero: ")
 
-print(libro.libro1(" ", " ", " "))
+
+print(libro.libro1("titulo, autor, genero"))
