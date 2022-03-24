@@ -4,3 +4,15 @@ class Animal():
         self.especie = especie
         self.nacimiento = nacimiento
 
+    def getNombre(self):
+        return self.nombre
+    def getEspecie(self):
+        return self.especie
+    def getNacimiento(self):
+        return self.nacimiento
+    
+    def Animal1(self):
+        print("Nombre: " + self.getNombre())
+        print("Eespecie: " + self.getEspecie())
+        print("Nacimiento: " + self.getNacimiento())
+        
