@@ -1,3 +1,8 @@
+#Considere los objetos siguientes: Animal, Mamífero, Ovíparo, Pollo, Gato, Ornitorrinco
+#Describa las relaciones entre los diferentes objetos. El diagrama asociado se llama diagrama de clases.
+#Dar un ejemplo de descripción algorítmica de las clases asociadas (únicamente la declaración de clase XXX).
+#¿Es posible implementar estos objetos en Python? Sí, es posible.
+
 class Animal():
     def __init__(self, nombre, especie, nacimiento) :
         self.nombre = nombre
@@ -19,4 +24,6 @@ class Animal():
 nombre = input("Dime el tipo de animal: ")
 especie = input("Dime el tipo de especie: ")
 nacimiento = input("Tipo de animal según su nacimiento: ")
+a = Animal(nombre, especie, nacimiento)
 
+a.Animal1()
