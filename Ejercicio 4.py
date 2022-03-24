@@ -5,4 +5,9 @@ class CuentaBancaria():
         self.fecha = fecha
         self.ndecuenta = ndecuenta
         self.saldo = saldo
-        
+
+#ingresar, retirar, transferir
+def RetirarDinero(self):
+    if self.saldo > 0:
+        self.saldo = self.saldo - 
+
