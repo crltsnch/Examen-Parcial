@@ -10,7 +10,7 @@ class CuentaBancaria():
     def RetirarDinero(self, reintegro):
         reintegro = int(input("¿Qué cantidad de dinero desea retirar? "))
         if self.saldo > reintegro:
-            self.saldo = self.saldo - reintegro
+            self.saldo = self.saldo - (reintegro + reintegro*0,05)
             print("Su nuevo saldo es " + self.saldo)
         else:
             print("No hay saldo suficiente")
@@ -23,7 +23,7 @@ class CuentaBancaria():
     def TransferirDinero(self, transferido):
         transferido = int(input("¿Qué cantidad de dinero desea transferir?"))
         if self.saldo > transferido:
-            self.saldo = self.saldo - transferido
+            self.saldo = self.saldo - (transferido + transferido*0,05)
             print("Su nuevo saldo es " + self.saldo)
         else:
             print("No hay saldo suficiente")
