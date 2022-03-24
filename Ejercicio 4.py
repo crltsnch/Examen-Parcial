@@ -7,10 +7,13 @@ class CuentaBancaria():
         self.saldo = saldo
 
 #ingresar, retirar, transferir
-def RetirarDinero(self):
-    if self.saldo > 0:
-        self.saldo = self.saldo - 
+def RetirarDinero(self, reintegro):
+    if self.saldo > reintegro:
+        self.saldo = self.saldo - reintegro
 
-def IngresarDinero(self):
-    self.saldo = self.saldo + 
-    
+    else:
+        print("No hay saldo suficiente")
+
+def IngresarDinero(self, ingreso):
+    self.saldo = self.saldo + ingreso
+
